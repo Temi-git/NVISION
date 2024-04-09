@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  background-color: #010a16;
+}
+body {
+  overflow: scroll;
+}
+.navbar {
+  position: fixed;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.bg-custom-blue {
+  background-color: #001d46;
+}
+.navbar-nav a {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar-nav a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*   --------------- section-2 */
+
+#envision-section {
+  padding: 60px 0;
+}
+
+.text-box {
+  text-align: center;
+}
+
+.text-box h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  line-height: 1.2;
+  animation: fadeInUp 1s ease-in-out;
+  /* text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5); */
+}
+.text-box h4 {
+  /* font-size: -1.2em; */
+  animation: fadeInout 2s ease-in-out;
+  color: #fff;
+  margin-top: 10px;
+  display: block;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+.text-box h2 span {
+  color: #1db954;
+  font-size: 3em;
+}
+
+.vision {
+  color: #001d46;
+  font-size: 1em;
+}
+.empty-box {
+  background-color: yellow;
+  height: 300px;
+  animation: fadeInUp 1s ease-in-out;
+}
+/* =---------------button----------- */
+
+.section-2 {
+  padding: 50px 0;
+  opacity: 1;
+  background-color: #010a16;
+
+  text-align: center;
+}
+
+.section-2 a {
+  display: inline-block;
+  background-color: #010a16;
+  padding: 15px 30px;
+  margin-bottom: 0px;
+  background-color: #1db954;
+  color: white;
+  font-weight: bold;
+  animation: fade 2s ease-in-out;
+
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section-2 a:hover {
+  /* box-shadow: 0 8px 25px rgba(293, 185, 384, 0.9); */
+  box-shadow: 5px 8px 15px rgba(50, 150, 50, 0.6);
+  cursor: pointer;
+  background-color: #010a16;
+}
+
+/* ---------------OUR STORY--------- */
+.section-3 h3 span {
+  color: #1db954;
+  cursor: pointer;
+}
+
+.section-3 h3 {
+  font-size: 3.3em;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  animation: fade 4s ease-in-out;
+  text-align: center;
+}
+/*
+.split-section {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.left-box {
+  width: 50%;
+  height: 200px;
+  margin-left: 102px;
+  background-color: yellow;
+  animation: growLeft 4s ease-in-out;
+}
+
+.right-text {
+  flex: 1;
+  max-width: 450px;
+  margin: 15px auto;
+  text-align: right;
+  animation: growRight 4s ease-in-out;
+}
+
+.right-text h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2.3em;
+  max-width: 450px;
+  margin: 15px auto;
+  margin-bottom: 15px;
+}
+
+.right-text p {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.split-section.active .left-box {
+  animation: growLeft 1s ease-in-out;
+}
+
+.split-section.active .right-text {
+  animation: growRight 1s ease-in-out;
+} */
+
+/* ... (Your other existing styles) ... */
+/*------------ 1-------------- */
+.section-3 h3 span { 
+  color: #1db954; 
+} /* Assuming you still want this */
+
+.left-box {
+  height: 200px; 
+  background-color: yellow; 
+} 
+
+
+.right-text { 
+  max-width: 450px; 
+  margin: 15px auto;   
+} 
+
+.left-box {
+  animation: growLeft 4s ease-in-out;
+}
+
+.right-text h1 { 
+  animation: fadeInUp 4s ease-in-out;
+  color: #fff; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.1em;
+}
+.right-text p{
+  font-size: 1em;
+  color: #fff;
+  animation: fadeInUp 4s ease-in-out;
+
+  font-family: sans-serif;
+}
+@keyframes growLeft {
+  0% { transform: translateX(-100px); opacity: 0; } 
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes growRight {
+  0% { transform: translateX(100px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+
+
+/* ---------------second -----------*/
+/* .text-and-box-section {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+
+.left-text-content {
+  flex: 1;
+  color: #fff;
+  text-align: left;
+  animation: growLeft 5s ease-in-out;
+}
+
+.left-text-content h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  max-width: 450px;
+  margin: 15px auto;
+  margin-bottom: 15px;
+}
+
+.left-text-content p {
+  font-size: 1.2em;
+  max-width: 450px;
+  margin: 12px auto;
+  line-height: 1.5;
+}
+
+
+.right-yellow-box {
+  width: 35%;
+  height: 200px;
+  margin-left: 20px;
+  background-color: yellow;
+  animation: growRight 5s ease-in-out;
+} */
+
+/* ... (Your other existing styles) ... */
+/* ---------------2----------- */
+.text-and-box-section {
+  padding: 50px 0;
+}
+
+.left-text-content h1 { 
+  animation: fadeInUp 4s ease-in-out;
+  color: #fff;
+  font-size: 1.9em;
+  font-family: 'Times New Roman', Times, serif; 
+}
+.left-text-content p { 
+  animation: fadeInUp 4s ease-in-out;
+  color: #fff;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+.right-yellow-box {
+  width: 30%; /* Reduced width */
+  height: 300px; 
+  background-color: yellow;
+  animation: slideInRight 6s ease-in-out;  
+} 
+
+@keyframes slideInLeft {
+  0% { transform: translateX(-100px); opacity: 0; } 
+  100% { transform: translateX(0); opacity: 1; } 
+}
+
+@keyframes slideInRight {
+  0% { transform: translateX(100px); opacity: 0; } 
+  100% { transform: translateX(0); opacity: 1; } 
+}
+
+
+/* ------------text------------- */
+.text h1 {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-size: 4.3em;
+  text-shadow: 4px 4px 5px rgba(230, 209, 209, 0.5);
+}
+.text span {
+  color: #1db954;
+}
+
+
+/* ----------------APPLICATION------ */
+/* General Table Appearance */
+.table {
+  margin-bottom: 20px; 
+  background-color: #001d46;
+  color: #fff;
+    
+  animation: fadeInUp 10s ease-in-out;
+
+}
+
+/* Image Hover */
+.image-item {
+  position: relative;
+}
+
+.image-item img {
+  width: 100%;
+  transition: transform 0.5s ease; 
+}
+
+.image-item:hover img {
+  transform: scale(1.1); 
+}
+
+
+/* Responsiveness (Optional - Adjust media query sizes) */
+@media only screen and (max-width: 768px) { 
+  .split-section {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .left-box, .right-text {
+    width: 100%; /* Make elements take full available width */
+    margin: 0;   /* Remove any unnecessary margins */
+  }
+
+  .left-box {
+    margin-bottom: 20px; /* Add spacing between boxes when stacked */
+  }
+}
+
+/* Animations (Customize timing/easing) */
+@keyframes growLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes growRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+    scroll-timeline: normal;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes fadeInout {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    scroll-timeline: normal;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+    transform: translateY(20px);
+    scroll-timeline: normal;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/* our story animation */
+@keyframes growLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes growRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Responsiveness (Optional - Adjust media query sizes) */
+@media only screen and (max-width: 768px) {
+  .split-section {
+    flex-direction: column;
+  }
+  .left-box,
+  .right-text {
+    flex: 1;
+  }
+}

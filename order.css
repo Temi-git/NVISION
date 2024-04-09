@@ -1,0 +1,21 @@
+.section-2 {
+    background-color: #001d46;
+    color: white;
+    padding: 40px 0; 
+    text-align: center;
+  }
+  
+  .customer-form {
+    max-width: 500px;
+    margin: 0 auto;  /* Center the form */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    background-color: #fff; /* White input fields */
+    color: #333; /* Dark text within the input fields */
+  }
+  
